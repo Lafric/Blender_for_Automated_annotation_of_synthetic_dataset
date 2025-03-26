@@ -1,0 +1,29 @@
+{
+    "model_file_path": "/netscratch/dongmo/datas/models/smplx/SMPLX_NEUTRAL.npz",
+    "smplx_data_path": "/netscratch/dongmo/datas/raw_seqs/s02/capsulemachine_grab_01.smplx.npy",
+    "camera_data_path": "/netscratch/dongmo/datas/raw_seqs/s02/capsulemachine_grab_01.egocam.dist.npy",
+    "file_path_segmentation_vert": "/netscratch/dongmo/datas/smplx_vert_segmentation.json",
+    "base_output_dir": "/netscratch/dongmo/blender-renders",
+    "camera_parameters": {
+        "fisheye624_cx": 365.799927,
+        "fisheye624_cy": 361.860199,
+        "fisheye624_f": 304.402039,
+        "fisheye624_k0": 0.365089,
+        "fisheye624_k1": -0.173808,
+        "fisheye624_k2": -0.753495,
+        "fisheye624_k3": 2.434789,
+        "fisheye624_k4": -2.577862,
+        "fisheye624_k5": 0.878848,
+        "fisheye624_p0": 0.000801,
+        "fisheye624_p1": 0.000294,
+        "fisheye624_s0": -0.001579,
+        "fisheye624_s1": -0.005658,
+        "fisheye624_s2": 0.000878,
+        "fisheye624_s3": -0.000261
+    },
+    "image_resolution": {
+        "img_width": 1408,
+        "img_height": 1408
+    },
+    "isSegmentation": true
+}
