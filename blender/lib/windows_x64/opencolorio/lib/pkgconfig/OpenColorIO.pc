@@ -1,0 +1,11 @@
+prefix=C:/db/build/S/VS1564R/Release/opencolorio
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenColorIO
+Version: 2.3.2
+Description: OpenColorIO (OCIO) is a complete color management solution
+URL: https://github.com/AcademySoftwareFoundation/OpenColorIO
+Libs: -L${libdir} -lOpenColorIO
+Cflags: -I${includedir}
