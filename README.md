@@ -49,8 +49,7 @@ For our example in the cluster we have:
 
 - template_bmesh.blend contains a mesh object named "CustomObject" and a camera named "Camera". If using another one make changes in code accordingly.
 
-## Demo video
-<img width="569" height="726" alt="image" src="https://github.com/user-attachments/assets/e90bde8c-1d20-4c3f-84d4-d41a66c188ae" />
+
 
 
 
