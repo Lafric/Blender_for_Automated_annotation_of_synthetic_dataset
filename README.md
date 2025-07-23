@@ -1,5 +1,7 @@
 # Synthesis of Hand/Arm annotation from 3D Rendering for Fisheye624 camera model from Aria glasses
 
+<img width="738" height="415" alt="image" src="https://github.com/user-attachments/assets/9bd5e99f-e1ab-4766-a0b0-488a098718d1" />
+
 This script (renders.py) automates the rendering of human body motion data (in SMPL-X format) within Blender, using camera parameters, pose data, and optional segmentation-based coloring. It's based on the integration of the Fisheye624 camera model in Blender. I achieved the integration of this camera model by modifing the Open Code Source at [here](https://github.com/blender/blender)
 
 ## Motivation
@@ -47,10 +49,9 @@ For our example in the cluster we have:
 
 - template_bmesh.blend contains a mesh object named "CustomObject" and a camera named "Camera". If using another one make changes in code accordingly.
 
-## Permissions for the cluster
-I've given my supervisor the Permission to see the computed images on the cluster. The script can be directly run from there.
-In the folder <pre><code>/netscratch/dongmo/blender-Own/build_linux/bin</code></pre> containing the build app run <pre><code>./blender -b template_bmesh.blend -P /netscratch/dongmo/scripts/renders.py</code></pre>
-To test with other sequence change the config_render.json file.
+## Demo video
+<img width="569" height="726" alt="image" src="https://github.com/user-attachments/assets/e90bde8c-1d20-4c3f-84d4-d41a66c188ae" />
+
 
 
 
