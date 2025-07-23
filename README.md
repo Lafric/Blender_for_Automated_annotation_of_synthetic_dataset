@@ -1,6 +1,6 @@
-# Synthesis of Hand/Arm annotation for Aria glasses
+# Synthesis of Hand/Arm annotation from 3D Rendering for Fisheye624 camera model from Aria glasses
 
-This script (renders.py) automates the rendering of human body motion data (in SMPL-X format) within Blender, using camera parameters, pose data, and optional segmentation-based coloring.
+This script (renders.py) automates the rendering of human body motion data (in SMPL-X format) within Blender, using camera parameters, pose data, and optional segmentation-based coloring. It's based on the integration of the Fisheye624 camera model in Blender. I achieved the integration of this camera model by modifing the Open Code Source at [here](https://github.com/blender/blender)
 
 ## Requirements
 - The build Blender application: The modified code is provided in the folder blender.
@@ -17,6 +17,12 @@ By following the instructions in [Build Blender](https://developer.blender.org/d
 
 - Renders are saved as .jpg images, under base_output_dir/<sequence>/<action>/<segmentation_mode>/.
 - If isSegmentation is true, specific body parts are colored based on the segmentation JSON.
+
+Example: 
+<img width="363" height="323" alt="image" src="https://github.com/user-attachments/assets/9cd5241d-5e37-43b2-88b9-152c5986a50c" />
+<img width="364" height="324" alt="image" src="https://github.com/user-attachments/assets/8f8a8afe-206a-478e-b07a-6c79232b4dac" />
+
+
 
 ## How to run
 Assuming being in the folder containing the built blender App executable run: 
