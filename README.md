@@ -2,7 +2,7 @@
 
 This script (renders.py) automates the rendering of human body motion data (in SMPL-X format) within Blender, using camera parameters, pose data, and optional segmentation-based coloring.
 
-##Requirements
+## Requirements
 - The build Blender application: The modified code is provided in the folder blender.
 - SMPLX model (model path) from [here](https://smpl-x.is.tue.mpg.de/)
 - Raw sequences of the Motion capture data from Arctic. [here](https://github.com/zc-alexfan/arctic)
