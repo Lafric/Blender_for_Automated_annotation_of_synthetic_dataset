@@ -2,6 +2,18 @@
 
 This script (renders.py) automates the rendering of human body motion data (in SMPL-X format) within Blender, using camera parameters, pose data, and optional segmentation-based coloring. It's based on the integration of the Fisheye624 camera model in Blender. I achieved the integration of this camera model by modifing the Open Code Source at [here](https://github.com/blender/blender)
 
+## Motivation
+- Synthetic datasets are used in many dataset dealing with 3D human model to overcome the challenges of real-world data collection. 
+- The need of automated annotation methods are more crucial as the save time to researches.
+- No synthetic dataset using Fisheye624 Camera model
+
+
+
+## Method
+
+<img width="1115" height="526" alt="image" src="https://github.com/user-attachments/assets/16521efa-25d2-465e-8e53-44b09c35cdfc" />
+
+
 ## Requirements
 - The build Blender application: The modified code is provided in the folder blender.
 - SMPLX model (model path) from [here](https://smpl-x.is.tue.mpg.de/)
@@ -18,7 +30,7 @@ By following the instructions in [Build Blender](https://developer.blender.org/d
 - Renders are saved as .jpg images, under base_output_dir/<sequence>/<action>/<segmentation_mode>/.
 - If isSegmentation is true, specific body parts are colored based on the segmentation JSON.
 
-Example: 
+Example an image with is annotation: 
 <img width="363" height="323" alt="image" src="https://github.com/user-attachments/assets/9cd5241d-5e37-43b2-88b9-152c5986a50c" />
 <img width="364" height="324" alt="image" src="https://github.com/user-attachments/assets/8f8a8afe-206a-478e-b07a-6c79232b4dac" />
 
